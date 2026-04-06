@@ -4,8 +4,8 @@ import threading
 from datetime import datetime
 
 # --- CONFIGURATION ---
-HOST = '0.0.0.0'  # Listen on all interfaces
-PORT = 9999       # We use 9999 to avoid admin rights issues
+HOST = '0.0.0.0'  
+PORT = 9999       
 LOG_FILE = 'logs/intrusions.log'
 
 # --- 1. SETUP LOGGING ---
